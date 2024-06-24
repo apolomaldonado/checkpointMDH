@@ -50,6 +50,11 @@ nav a:hover {
     background-color: #9acd32;
     color: rgb(0, 0, 0);
  }
+a[ href="#"]{
+    background-color: #9acd32;
+    color: black;
+}
+
 
 
 main {
@@ -101,6 +106,11 @@ footer{
     justify-content: space-between;
 
 }@media (max-width: 768px) {
+    main{
+        display: flex: ;
+        flex-direction:column;
+    }
+    
     .cards-conteiner {
         flex-direction: column;
         align-items: center;
