@@ -107,7 +107,7 @@ footer{
 
 }@media (max-width: 768px) {
     main{
-        display: flex: ;
+        display: flex;
         flex-direction:column;
     }
     
